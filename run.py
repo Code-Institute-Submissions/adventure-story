@@ -20,11 +20,33 @@ def forestAdventureGame():
     """
     This will be the first question in the story.
     """
-    day_or_night = input("You are ready to enter the forest, but its almost night, \n do you still go or do you wait until morning? (go now/wait) ").lower()
+    day_or_night = input(characterName "is ready to enter the forest, but its almost night, \n do they still go or do they wait until morning? (go now/wait) ").lower()
+    """
+    Player has selected to go at night
+    """
     if day_or_night == "go now":
-        print("night")
+        """
+        Second question, do they go left or right?
+        """
+        left_or_right = input(characterName "has just got to the forest, there are 2 paths. \n But it is to dark to read the signs, do they take the left or right path? (left/right)").lower()
+        if left_or_right == "left":
+            print("woo")
+        elif left_or_right == "right":
+            print("ooo")
+        else:
+        print("Uh oh, that wasn't an available answer. \n GAME OVER!")
+
+    """
+    Player has selected to wait until morning.
+    """
     elif day_or_night == "wait":
-        print("morning")
+        """
+        Second question, do they go left or right?
+        """
+
+    """
+    Player has entered an incorrect answer, end's the game.
+    """
     else:
         print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
