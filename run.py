@@ -8,19 +8,19 @@ characterName = input("What would you like your characters name to be? \n")
 print("Rules of the game: \n")
 print("There is only one rule, you can only type an that is given to you. \n If you type anything else your story will be over!")
 
-print("Which story would you like to play? \n Forrest or City") 
+print("Which story would you like to play? \n Forest or City") 
 selectedStory = input("Please type the name of the story you want to play. ").lower()
 
 """
 This is the function that will hold the forrest adventure story line
 """
-def forrestAdventureGame():
-    print("Welcome to the forrest story.\n")
+def forestAdventureGame():
+    print("Welcome to the forest story.\n")
 
     """
     This will be the first question in the story.
     """
-    day_or_night = input("You are ready to enter the forrest, but its almost night, \n do you still go or do you wait until morning? (go now/wait) ").lower()
+    day_or_night = input("You are ready to enter the forest, but its almost night, \n do you still go or do you wait until morning? (go now/wait) ").lower()
     if day_or_night == "go now":
         print("night")
     elif day_or_night == "wait":
@@ -39,7 +39,7 @@ def cityAdventureGame():
 This if statement will check to see what story has been selected.
 """
 
-if selectedStory == "forrest":
+if selectedStory == "forest":
     forrestAdventureGame()
 elif selectedStory == "city":
     cityAdventureGame()
