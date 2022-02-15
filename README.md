@@ -19,6 +19,10 @@ Most games have no meaning behind them, like battleships for example, you just h
 
 # How To Play
 
+- The player enters their characters name.
+- The Player then picks a story mode to start, either Forest or City.
+- The story then loads up, they get given two possible answers and get's to choose which one to take, each way will give them a different ending.
+
 [Back to Table of contents](#table-of-contents)
 
 # Features
