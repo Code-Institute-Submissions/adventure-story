@@ -16,3 +16,31 @@ Most games have no meaning behind them, like battleships for example, you just h
 * [Credits](#Credits)
 * [Bugs](#Bugs)
 * [After Thoughts](#After_Thoughts)
+
+# How To Play
+
+[Back to Table of contents](#table-of-contents)
+
+# Features
+
+[Back to Table of contents](#table-of-contents)
+
+# Testing
+
+[Back to Table of contents](#table-of-contents)
+
+# Deployment
+
+[Back to Table of contents](#table-of-contents)
+
+# Credits
+
+[Back to Table of contents](#table-of-contents)
+
+# Bugs
+
+[Back to Table of contents](#table-of-contents)
+
+# After Thoughts
+
+[Back to Table of contents](#table-of-contents)
