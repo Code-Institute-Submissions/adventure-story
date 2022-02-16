@@ -7,7 +7,7 @@ print("Welcome to Adventure Stories! \n Forest edition. \n")
 print("Rules of the game: \n")
 print("1. You have to be 18+ to play this game. \n 2. You can only type an that is given to you. \n If you type anything else your story will be over! \n")
  
-age = int.input("Please type your age here ")
+age = int(input("Please type your age here "))
 
 """
 This is the function that will hold the forrest adventure story line
@@ -73,10 +73,10 @@ def forestAdventureGame():
                 print("Have some rest and try again. \n GAME OVER")
 
             else:
-                print("Uh oh, that wasn't an available answer. \n GAME OVER!"    
+                print("Uh oh, that wasn't an available answer. \n GAME OVER!")    
         
-        # else:
-        #     print("Uh oh, that wasn't an available answer. \n GAME OVER!")
+        else:
+            print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
             """
             Player has selected to wait until morning.
@@ -87,9 +87,7 @@ def forestAdventureGame():
             """
 
 
-        """
-        Player has entered an incorrect answer, end's the game.
-        """
+        
     else:
         print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
