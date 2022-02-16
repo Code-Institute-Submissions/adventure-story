@@ -89,6 +89,9 @@ To deploy the project through Heroku I followed these steps:
 [Back to Table of contents](#table-of-contents)
 
 # Credits
+I would like to credit this Dr Who book. This is where all of my inspiration came from. 
+
+![Dr Who Book](assets/images/drwho-adventure.jpeg)
 
 [Back to Table of contents](#table-of-contents)
 
