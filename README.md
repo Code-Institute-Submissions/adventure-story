@@ -72,13 +72,15 @@ I then noticed when I took this line out everything worked again. It turned out 
 [Back to Table of contents](#table-of-contents)
 
 ## Deployment
+Before I could deploy I remenered I was supposed to use the file template from the love sandwiches project so had to go back and add everything that was needed.
+
 The site was deployed via Heroku, and the live link can be found here - 
 
 ### Project Deployment
 To deploy the project through Heroku I followed these steps:
 - Sign up / Log in to [Heroku](https://www.heroku.com/)
 - From the main Heroku Dashboard page select 'New' and then 'Create New App'
-- Give the project a name - I entered AdventureStory and select a suitable region, then select create app. The name for the app must be unique.
+- Give the project a name - I entered adventure-story and select a suitable region, then select create app. The name for the app must be unique.
 - This will create the app within Heroku and bring you to the deploy tab. From the sub menu at the top, navigate to the settings tab.
 - This next step is required for creating the app when using the CI Python Deployment Template. If you created your own program without using the CI Template, you might not need to add a config var.
 - In the config vars section select the reveal config vars button. This will display the current config vars for the app, there should be nothing already there.
