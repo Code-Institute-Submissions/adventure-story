@@ -41,11 +41,11 @@ def forestAdventureGame():
                 """
                 Player gets back to the 2 paths, do they take the go home or go right?
                 """
-                go_home_or_go_right = input("\n You are now back to where you started,\n do you want to go back home or the right? (home/right)")
+                go_home_or_go_right = input("\n You are now back to where you started,\n do you want to go back home or the right? (home/right)").lower()
                 if go_home_or_go_right == "home":
                     print("Have some rest and try again. \n GAME OVER")
                 elif go_home_or_go_right == "right":
-                    ignore_or_leave = input("You hear a weird noise, do you carry on and ignore the noise or leave? \n (ignore/leave)")
+                    ignore_or_leave = input("You hear a weird noise, do you carry on and ignore the noise or leave? \n (ignore/leave)").lower()
                     if ignore_or_leave == "ignore":
                         print("You start to hear howling, oh no its too late! You get surrounded by wolfs! \n GAME OVER")
                     elif ignore_or_leave == "leave":
@@ -60,7 +60,7 @@ def forestAdventureGame():
             """
             Second question (after player decided to go right), they hear a weird noise, do they explore or go home?
             """
-            explore_or_go_home = input("You hear a weird noise, do you carry on and investigate the noise or go home? \n (investigate/go home)")            
+            explore_or_go_home = input("You hear a weird noise, do you carry on and investigate the noise or go home? \n (investigate/go home)").lower()          
             if explore_or_go_home == "investigate":
                 print("You get surrounded by wolfs! \n GAME OVER")
             elif explore_or_go_home == "go home":
@@ -76,7 +76,7 @@ def forestAdventureGame():
             """
             Second question, do they go to the lake or the hill?
             """
-            lake_or_hill = input("You reach two paths, the left one will lead you to a lake, the right will take you to a hill. \n Where fo you want to go? (lake/hill)")
+            lake_or_hill = input("You reach two paths, the left one will lead you to a lake, the right will take you to a hill. \n Where fo you want to go? (lake/hill)").lower()
             if lake_or_hill == "lake":
                 """
                 3rd question, you see a boat do you go in it?
@@ -103,4 +103,3 @@ if age >= 18:
     forestAdventureGame()
 else:
     print("Sorry you have to be atleast 18 to play this game.")
-    
