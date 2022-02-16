@@ -74,7 +74,7 @@ I then noticed when I took this line out everything worked again. It turned out 
 ## Deployment
 Before I could deploy I remenered I was supposed to use the file template from the love sandwiches project so had to go back and add everything that was needed.
 
-The site was deployed via Heroku, and the live link can be found here - 
+The site was deployed via Heroku, and the live link can be found here - [Adventure Story Link](https://adventure-story.herokuapp.com/)
 
 ### Project Deployment
 To deploy the project through Heroku I followed these steps:
