@@ -57,7 +57,17 @@ Most games have no meaning behind them, like battleships for example, you just h
     - Not within project scope.
 
 ## Bugs
+I found that there were many bugs while I was making this project, with it mainly being if/elif/else statements it got confusing fast!
 
+![Main Error](assets/images/issue-1.png)
+This bug had me stumped for ages I knew something was wrong as the comments were lit up rather than being the dark grey like usual. I thought I would run it through the terminal to see if that helped me figure out what was wrong.
+
+![Terminal Screenshot](assets/images/terminal-with-issue-1.png)
+However this didn't help me at all it just confused me further. 
+To find the solution I started to read back through my work and take bits out until it started to work again. That is when I spotted this.
+
+![Error Is Found!](assets/images/fix-to-issue-1.png)
+I then noticed when I took this line out everything worked again. It turned out I was just missing the end bracket.
 
 [Back to Table of contents](#table-of-contents)
 
