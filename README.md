@@ -19,7 +19,7 @@ Most games have no meaning behind them, like battleships for example, you just h
 
 # How To Play
 
-- The Player then picks a story mode to start, either Forest or City.
+- The Player then picks a story mode to start, either Forest.
 - The story then loads up, they get given two possible answers and get's to choose which one to take, each way will give them a different ending.
 
 

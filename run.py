@@ -2,10 +2,10 @@
 This first section will hold the first print and input statements, welcoming the player to the game
 """
 
-print("Welcome to Adventure Stories! \n")
+print("Welcome to Adventure Stories! \n Forest edition. \n")
 
 print("Rules of the game: \n")
-print("There is only one rule, you can only type an that is given to you. \n If you type anything else your story will be over!")
+print("There is only one rule, you can only type an that is given to you. \n If you type anything else your story will be over! \n")
 
 print("Which story would you like to play? \n Forest or City") 
 selectedStory = input("Please type the name of the story you want to play. ").lower()
@@ -97,22 +97,7 @@ def forestAdventureGame():
         print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
 
-"""
-This is the function that will hold the city adventure story line
-"""
-def cityAdventureGame():
-    print("You are now in the c game")
 
-"""
-This if statement will check to see what story has been selected.
-"""
-
-if selectedStory == "forest":
-    forestAdventureGame()
-elif selectedStory == "city":
-    cityAdventureGame()
-else:
-    print("It doesnt look like that game exists. \n Please start again.")
     
     
 
@@ -125,4 +110,3 @@ else:
 
 
 forestAdventureGame()
-cityAdventureGame()
