@@ -30,7 +30,7 @@ def forestAdventureGame():
         """
         print("\n There are 2 paths ahead. But it is to dark to read")
         print("\n the signs, do you take the left or right path? ")
-        left_or_right = input("\n (left/right)").lower()
+        left_or_right = input("\n (left/right) ").lower()
         if left_or_right == "left":
             """
             Third Question, do they go to the house or not? go_or_no_go
@@ -38,7 +38,7 @@ def forestAdventureGame():
             print("\n You have gone down the left path and see a small")
             print("hut with lights on up ahead,")
             print("do you go to it or go back to where you came from?")
-            go_or_no_go = input("\n (go/turn back)").lower()
+            go_or_no_go = input("\n (go/turn back) ").lower()
             """
             Player has decied to go towards the hut. This ends the Story!
             """
@@ -55,13 +55,13 @@ def forestAdventureGame():
                 """
                 print("\n You are now back to where you started,")
                 print("\n do you want to go back home or the right?")
-                go_home_or_go_right = input("\n (home/right)").lower()
+                go_home_or_go_right = input("\n (home/right) ").lower()
                 if go_home_or_go_right == "home":
                     print("Have some rest and try again. \n GAME OVER")
                 elif go_home_or_go_right == "right":
                     print("You hear a weird noise, do you")
                     print(" carry on and ignore the noise or leave?")
-                    ignore_or_leave = input("\n (ignore/leave)").lower()
+                    ignore_or_leave = input("\n (ignore/leave) ").lower()
                     if ignore_or_leave == "ignore":
                         print("You start to hear howling, oh no its ")
                         print("too late! You get surrounded by wolfs!")
@@ -87,7 +87,7 @@ def forestAdventureGame():
             print("You hear a weird noise, do you")
             print(" carry on and investigate the noise")
             print(" or go home? ")
-            explore_or_go_home = input("\n (investigate/go home)").lower()
+            explore_or_go_home = input("\n (investigate/go home) ").lower()
             if explore_or_go_home == "investigate":
                 print("You get surrounded by wolfs! \n GAME OVER")
             elif explore_or_go_home == "go home":
@@ -107,7 +107,7 @@ def forestAdventureGame():
             print(" the left one will lead you to a lake,")
             print(" the right will take you to a hill.")
             print("\n Where fo you want to go?")
-            lake_or_hill = input("(lake/hill)").lower()
+            lake_or_hill = input("(lake/hill)" ).lower()
             if lake_or_hill == "lake":
                 """
                 3rd question, you see a boat do you go in it?
@@ -117,7 +117,7 @@ def forestAdventureGame():
                 print("and a small boat in the lake.")
                 print("\n Do you explore the hut ")
                 print("or take the boat for a ride?")
-                hut_or_boat = input("(hut/boat)")
+                hut_or_boat = input("(hut/boat) ").lower()
                 if hut_or_boat == "hut":
                     print("As you aproach, you see what looks like ")
                     print("human remains sticking out of the ground.")
