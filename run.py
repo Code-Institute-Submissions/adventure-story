@@ -24,11 +24,11 @@ def forestAdventureGame():
         Second question, do they go left or right?
         """
         left_or_right = input("\n There are 2 paths ahead. \n But it is to dark to read the signs, do you take the left or right path? (left/right)").lower()
-        if left_or_right == "left":            
+        if left_or_right == "left":
             """
             Third Question, do they go to the house or not? go_or_no_go
             """
-            go_or_no_go = input("\n You have gone down the left path and see a small hut with lights on up ahead, do you go to it or go back to where you came from? (go/turn back)").lower() 
+            go_or_no_go = input("\n You have gone down the left path and see a small hut with lights on up ahead, do you go to it or go back to where you came from? (go/turn back)").lower()
             """
             Player has decied to go towards the hut. This ends the Story!
             """
@@ -51,22 +51,22 @@ def forestAdventureGame():
                     elif ignore_or_leave == "leave":
                         print("You decided to leave and go home, have some rest and try again. \n GAME OVER")
                     else:
-                        print("Uh oh, that wasn't an available answer. \n GAME OVER!")          
+                        print("Uh oh, that wasn't an available answer. \n GAME OVER!")
                 else:
-                    print("Uh oh, that wasn't an available answer. \n GAME OVER!")                   
+                    print("Uh oh, that wasn't an available answer. \n GAME OVER!")
             else:
                 print("Uh oh, that wasn't an available answer. \n GAME OVER!")
         elif left_or_right == "right":
             """
             Second question (after player decided to go right), they hear a weird noise, do they explore or go home?
             """
-            explore_or_go_home = input("You hear a weird noise, do you carry on and investigate the noise or go home? \n (investigate/go home)").lower()          
+            explore_or_go_home = input("You hear a weird noise, do you carry on and investigate the noise or go home? \n (investigate/go home)").lower()
             if explore_or_go_home == "investigate":
                 print("You get surrounded by wolfs! \n GAME OVER")
             elif explore_or_go_home == "go home":
                 print("Have some rest and try again. \n GAME OVER")
             else:
-                print("Uh oh, that wasn't an available answer. \n GAME OVER!")       
+                print("Uh oh, that wasn't an available answer. \n GAME OVER!")
         else:
             print("Uh oh, that wasn't an available answer. \n GAME OVER!")
             """
@@ -91,12 +91,12 @@ def forestAdventureGame():
             elif lake_or_hill == "hill":
                 print("Before you make it to the hill you get surrounded by wolfs! \n GAME OVER")
             else:
-                print("Uh oh, that wasn't an available answer. \n GAME OVER!")    
+                print("Uh oh, that wasn't an available answer. \n GAME OVER!")
     else:
         print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 """
 This statement will check to see whether the age that is entered is either equal to 18 or is older.
-If this is the case, the game will run. 
+If this is the case, the game will run.
 if not then the game will end.
 """
 if age >= 18:
