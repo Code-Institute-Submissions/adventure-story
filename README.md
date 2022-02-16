@@ -2,11 +2,11 @@
 
 ## Introduction 
 
-Adventure story was created to bring back childhood memories. As a child I hated to read books but loved books that gave me options on how the story went. I liked how I could read it over and over again and get to a different ending everytime.
+Adventure story was created to bring back childhood memories. As a child I hated to read books but loved books that gave me options on how the story went. I liked how I could read it over and over again and get to a different ending every time.
 
-The main aim of this project was to give an adult their memories back, to play a fun but potenitally scary game, through reading and just answering a few questions.
+The main aim of this project was to give an adult their memories back, to play a fun but potentially scary game, through reading and just answering a few questions.
 
-Most games have no meaning behind them, like battleships for example, you just have to guess where they are. However with this game you are reading which is great for your mind and having fun in the proccess.
+Most games have no meaning behind them, like battleships for example, you just have to guess where they are. However with this game you are reading which is great for your mind and having fun in the process.
 
 ## Table of contents
 * [How To Play](#How_To_Play)
@@ -19,7 +19,7 @@ Most games have no meaning behind them, like battleships for example, you just h
 # How To Play
 
 - The Player first has to confirm their age as they have to be 18+ to play this game.
-- The story then loads up, they get given two possible answers and get's to choose which one to take, each way will give them a different ending.
+- The story then loads up, they get given two possible answers and gets to choose which one to take, each way will give them a different ending.
 
 
 [Back to Table of contents](#table-of-contents)
@@ -79,7 +79,7 @@ To deploy the project through Heroku I followed these steps:
 - Sign up / Log in to [Heroku](https://www.heroku.com/)
 - From the main Heroku Dashboard page select 'New' and then 'Create New App'
 - Give the project a name - I entered AdventureStory and select a suitable region, then select create app. The name for the app must be unique.
-- This will create the app within Heroku and bring you to the deploy tab. From the submenu at the top, navigate to the settings tab.
+- This will create the app within Heroku and bring you to the deploy tab. From the sub menu at the top, navigate to the settings tab.
 - This next step is required for creating the app when using the CI Python Deployment Template. If you created your own program without using the CI Template, you might not need to add a config var.
 - In the config vars section select the reveal config vars button. This will display the current config vars for the app, there should be nothing already there.
 - In the KEY input field input PORT all in capitals, then in the VALUE field input 8000 and select the Add button to the right.
@@ -107,8 +107,10 @@ I would like to credit this Dr Who book. This is where all of my inspiration cam
 
 # After Thoughts
 
-I am disapointed with how this project turned out. I planned to do a big version of love sandwiches which would be used to manage my bars stock, so our bar manager could use the system to plan her orders for the week. Half way through my project I broke 2 of my fingers, I tried to carry on with my project but realised yesterday theres no way I can finish it. I have made adventure story in hope to get the pass but I couldnt have forseen how difficult It would have been to complete a small project in a day. 
+I am disappointed with how this project turned out. I planned to do a big version of love sandwiches which would be used to manage my bars stock, so our bar manager could use the system to plan her orders for the week. Half way through my project I broke 2 of my fingers, I tried to carry on with my project but realised yesterday there’s no way I can finish it. I have made adventure story in hope to get the pass but I couldn’t have foreseen how difficult It would have been to complete a small project in a day. 
 
-With reflect I should have started this smaller project a while ago, then I could have atleast had some confidence that I have fixed all the bugs. I had a bad start, with just a month to learn python and create the project I should have chosen a project that I could confidently complete within the time-scale.
+With reflect I should have started this smaller project a while ago, then I could have at least had some confidence that I have fixed all the bugs. I had a bad start, with just a month to learn python and create the project I should have chosen a project that I could confidently complete within the time-scale.
+
+If I had more time I would have made the story longer and also added more features to the whole application.
 
 [Back to Table of contents](#table-of-contents)
