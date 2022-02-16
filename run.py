@@ -53,12 +53,10 @@ def forestAdventureGame():
                     print("Have some rest and try again. \n GAME OVER")
 
                 elif go_home_or_go_right == "right":
+                    print(1)
 
                 else:
-                print("Uh oh, that wasn't an available answer. \n GAME OVER!")
-                """
-                Player has entered an incorrect answer, end's the game.
-                """
+                    print(2)                    
             else:
                 print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
@@ -75,18 +73,18 @@ def forestAdventureGame():
                 print("Have some rest and try again. \n GAME OVER")
 
             else:
-                print("Uh oh, that wasn't an available answer. \n GAME OVER!"
-            
-        else:
-            print("Uh oh, that wasn't an available answer. \n GAME OVER!")
+                print("Uh oh, that wasn't an available answer. \n GAME OVER!"    
+        
+        # else:
+        #     print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
-        """
-        Player has selected to wait until morning.
-        """
+            """
+            Player has selected to wait until morning.
+            """
     elif day_or_night == "wait":
-        """
-        Second question, do they go ?
-        """
+            """
+            Second question, do they go ?
+            """
 
 
         """
@@ -96,16 +94,12 @@ def forestAdventureGame():
         print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
 
-
-    
-    
-
-
-
-
-
-
-
-
-
-forestAdventureGame()
+"""
+This statement will check to see whether the age that is entered is either equal to 18 or is older.
+If this is the case, the game will run. 
+if not then the game will end.
+"""
+if age >= 18:
+    forestAdventureGame()
+else:
+    print("Sorry you have to be atleast 18 to play this game.")
