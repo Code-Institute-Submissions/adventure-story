@@ -5,10 +5,9 @@ This first section will hold the first print and input statements, welcoming the
 print("Welcome to Adventure Stories! \n Forest edition. \n")
 
 print("Rules of the game: \n")
-print("There is only one rule, you can only type an that is given to you. \n If you type anything else your story will be over! \n")
-
-print("Which story would you like to play? \n Forest or City") 
-selectedStory = input("Please type the name of the story you want to play. ").lower()
+print("1. You have to be 18+ to play this game. \n 2. You can only type an that is given to you. \n If you type anything else your story will be over! \n")
+ 
+age = int.input("Please type your age here ")
 
 """
 This is the function that will hold the forrest adventure story line
