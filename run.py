@@ -53,10 +53,16 @@ def forestAdventureGame():
                     print("Have some rest and try again. \n GAME OVER")
 
                 elif go_home_or_go_right == "right":
-                    print(1)
-
+                    ignore_or_leave = input("You hear a weird noise, do you carry on and ignore the noise or leave? \n (ignore/leave)")
+                    if ignore_or_leave == "ignore":
+                        print("You start to hear howling, oh no its too late! You get surrounded by wolfs! \n GAME OVER")
+                    elif ignore_or_leave == "leave":
+                        print("You decided to leave and go home, have some rest and try again. \n GAME OVER")
+                    else:
+                        print("Uh oh, that wasn't an available answer. \n GAME OVER!") 
+                    
                 else:
-                    print(2)                    
+                    print("Uh oh, that wasn't an available answer. \n GAME OVER!")                   
             else:
                 print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
@@ -83,11 +89,25 @@ def forestAdventureGame():
             """
     elif day_or_night == "wait":
             """
-            Second question, do they go ?
+            Second question, do they go to the lake or the hill?
             """
+            lake_or_hill = input("You reach two paths, the left one will lead you to a lake, the right will take you to a hill. \n Where fo you want to go? (lake/hill)")
+            if lake_or_hill == "lake":
+                """
+                3rd question, you see a boat do you go in it?
+                """
+                hut_or_boat = input("You finally get to the lake, you see a hut on your left and a small boat in the lake. \n Do you explore the hut or take the boat for a ride? (hut/boat)")
+                if hut_or_boat == "hut":
+                    print("As you aproach, you see what looks likes human remains sticking out of the ground. \n You get scared and run home. \n GAME OVER!")
+                elif hut_or_boat == "boat":
+                    print("You get halfway into the lake when you notice you've been taking on water through a small hole. \n You try to block the hole but it gets worse. \n The boat starts to sink and you can't swim. \n GAME OVER!")
+                else:
+                    print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
-
-        
+            elif lake_or_hill == "hill":
+                print("Before you make it to the hill you get surrounded by wolfs! \n GAME OVER")
+            else:
+                print("Uh oh, that wasn't an available answer. \n GAME OVER!")    
     else:
         print("Uh oh, that wasn't an available answer. \n GAME OVER!")
 
